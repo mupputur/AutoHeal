@@ -1,6 +1,6 @@
 from selenium.webdriver.support.ui import Select
 
-class SeleniumHelper:
+class SeliniumHelper:
 
     def __init__(self, driver):
         self.driver = driver
@@ -66,7 +66,3 @@ class SeleniumHelper:
                     break
         except Exception as e:
             print("Unable to find the element :{} ERROR: {}".format(select_date, str(e)))
-
-
-
-

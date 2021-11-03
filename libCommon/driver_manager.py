@@ -8,7 +8,7 @@ class DriverManager:
     def __init__(self):
         self.driver = None
         self.url = "https://opensource-demo.orangehrmlive.com/"
-        self.driver_location = "C:\\Users\\pc\\Desktop\\project\\AutoHeal\\apps\\chromedriver.exe"
+        self.driver_location = "..\\..\\dependecies\\chromedriver.exe"
         self._initialize_driver()
 
     def _initialize_driver(self):
