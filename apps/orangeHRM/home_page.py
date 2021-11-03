@@ -1,11 +1,11 @@
-from libCommon.selenium_helper import SeliniumHelper
+from libCommon.selenium_helper import SeleniumHelper
 
 
 class HomePage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.helper = SeliniumHelper(self.driver)
+        self.helper = SeleniumHelper(self.driver)
 
     def navigate_admin(self):
         element = self.helper.identify_element('menu_admin_viewAdminModule', 'ID', 'Admin')
@@ -57,14 +57,14 @@ if __name__ == "__main__":
 
     obj = HomePage(driver_mgr.driver)
 
-    obj.navigate_admin()
-    obj.naviagte_pim()
-    obj.navigate_leave()
+    # obj.navigate_admin()
+    # obj.naviagte_pim()
+    # obj.navigate_leave()
     obj.navigate_time()
-    obj.navigate_recruitment()
-    obj.navigate_myinfo()
-    obj.navigate_performance()
-    obj.naviagte_dashboard()
-    obj.navigate_directory()
-    obj.naviagte_maintance()
-    obj.naviagte_buzz()
+    # obj.navigate_recruitment()
+    # obj.navigate_myinfo()
+    # obj.navigate_performance()
+    # obj.naviagte_dashboard()
+    # obj.navigate_directory()
+    # obj.naviagte_maintance()
+    # obj.naviagte_buzz()
