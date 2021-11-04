@@ -28,7 +28,7 @@ if __name__ == "__main__":
     driver_mgr = DriverManager()
     # driver_mgr is the DriverManager class object and driver is the attribute which is defined
     obj = DirectoryPage(driver_mgr.driver)
-    obj.search("Kallyani bhute")
+    obj.search("Kallyani Bhute")
     time.sleep(10)
     obj.reset()
 
